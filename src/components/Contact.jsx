@@ -6,12 +6,12 @@ const NameContact = () => {
     <section
       id="contact"  // This is crucial for scrolling to this section
       style={{
-        padding: "50px 20px",
+        padding: "60px 20px",
         backgroundColor: "rgba(48, 63, 159, 0.1)",
         textAlign: "center",
       }}
     >
-      <h2 style={{ color: "#303F9F", marginBottom: "30px" }}>Contact Us</h2>
+      <h2 style={{ color: "#1E3A8A", marginBottom: "30px", fontSize: "2.5em", fontWeight: "bold" }}>Contact Us</h2>
       <div
         className="contact-buttons-container"
         style={{
@@ -19,7 +19,7 @@ const NameContact = () => {
           margin: "0 auto",
           padding: "20px",
           backgroundColor: "white",
-          borderRadius: "10px",
+          borderRadius: "20px",
           boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)",
           border: "1px solid rgba(48, 63, 159, 0.2)",
         }}
@@ -57,7 +57,7 @@ const NameContact = () => {
             cursor: "pointer",
             transition: "background-color 0.3s ease",
           }}
-          onClick={() => window.location.href = "tel:+1234567890"}
+          onClick={() => window.location.href = "tel:+91 8792006430"}
           role="button"
           aria-label="Call Us"
         >

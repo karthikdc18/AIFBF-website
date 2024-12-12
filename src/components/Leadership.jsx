@@ -18,7 +18,7 @@ const styles = {
   },
   heading: {
     textAlign: 'center',
-    color: '#333',
+    color: '#1E3A8A',
     fontSize: '2em',
     fontWeight: 'bold',
     marginBottom: '20px',
@@ -75,7 +75,7 @@ const styles = {
     margin: '0',
     fontSize: '1.5em',
     fontWeight: '600',
-    color: '#333',
+    color: '#1E3A8A',
   },
   leadershipPosition: {
     margin: '5px 0',
@@ -137,30 +137,46 @@ const styles = {
 };
 
 const leadershipData = [
+  
   {
     name: 'Shri Dayananda Reddy',
     position: 'Managing Director',
-    image: '/images/dayananda_reddy.jpg', // Replace with actual image path
+    image: 'DAYANANDA.jpg', // Replace with actual image path
+  },
+  {
+    name: 'Shri Benekanahalli',
+    position: 'Director',
+    image: 'BENEKANAHALLI.jpg', // Replace with actual image path
+  },
+  {
+    name: 'Shri Gajaraj',
+    position: 'Director',
+    image: 'GAJARAJ.jpg', // Replace with actual image path
   },
   {
     name: 'Smt Pramila M. Nesargi',
     position: 'Director',
-    image: '/images/pramila_nesargi.jpg', // Replace with actual image path
+    image: 'PRAMILA NESARGI.jpg', // Replace with actual image path
+  },
+  {
+    name: 'Shri Krishna Murthy',
+    position: 'Director',
+    image: 'KRISHNA MURTHY.jpg', // Replace with actual image path
   },
   {
     name: 'Smt Prathibha Dayananda',
     position: 'Director',
-    image: '/images/prathibha_dayananda.jpg', // Replace with actual image path
+    image: 'PRATHIBHA.jpg', // Replace with actual image path
   },
   {
     name: 'Shri Shiv Shankar Agarwal',
     position: 'Director',
-    image: '/images/Growth.jpg', // Replace with actual image path
+    image: 'SHIVASHANKAR AGARWAL.jpg', // Replace with actual image path
   },
   {
     name: 'Shri Bhavesh Kumar Surana',
     position: 'Director',
-    image: '/images/bhavesh_surana.jpg', // Replace with actual image path
+    image: 'BHAVESH.jpg', // Replace with actual image path
   }
 ];
 

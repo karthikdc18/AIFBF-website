@@ -129,6 +129,7 @@ const RegionalPresence = () => {
 
       {/* State List */}
       <ul style={styles.regionList}>
+        <li style={styles.regionItem}>• Bengaluru</li>
         <li style={styles.regionItem}>• Tamil Nadu</li>
         <li style={styles.regionItem}>• Andhra Pradesh</li>
         <li style={styles.regionItem}>• Telangana</li>
@@ -137,13 +138,13 @@ const RegionalPresence = () => {
 
       {/* Map Section */}
       <div style={styles.mapContainer}>
-        {/* Embed Google Map for Delhi with reduced size */}
+        {/* Embed Google Map for the provided location with reduced size */}
         <iframe
-          src="https://www.google.com/maps?q=Delhi&output=embed" // Google Map link for Delhi
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12055.56157615673!2d77.63411732231777!3d12.890507779271518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae105b7fd18a83%3A0x1f52c7e9d2d5ee!2sSY%20NO.%2038%2F1%2C%20ANDAPURA%20VILLAGE%2C%20ATTIBELE%20HOBLI%2C%20ANEKAL%20TALUK%2C%20ELECTRONIC%20CITY%20POST%2C%20Bengaluru%20%28Bangalore%29%20Urban%2C%20Karnataka%2C%20560100!5e0!3m2!1sen!2sin!4v1671251108061!5m2!1sen!2sin"
           width="80%" // Reduced width to make the map smaller
           height="300" // Reduced height to make the map smaller
           style={{ border: 'none' }}
-          title="Delhi Map"
+          title="Bengaluru Map"
         ></iframe>
       </div>
 

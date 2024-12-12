@@ -115,12 +115,12 @@ export default function AboutUs() {
   <h3 className="text-3xl font-bold text-blue-900 mb-10">
     Our Objectives
   </h3>
-  <div className="flex justify-center gap-4">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 justify-center">
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, delay: 1 }}
-      className="group bg-white p-6 rounded-lg shadow-lg text-center w-1/4 transition-all hover:shadow-2xl hover:shadow-blue-500/50"
+      className="group bg-white p-6 rounded-lg shadow-lg text-center transition-all hover:shadow-2xl hover:shadow-blue-500/50"
     >
       {/* Image for Growth */}
       <img 
@@ -140,7 +140,7 @@ export default function AboutUs() {
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, delay: 1.2 }}
-      className="group bg-white p-6 rounded-lg shadow-lg text-center w-1/4 transition-all hover:shadow-2xl hover:shadow-blue-500/50"
+      className="group bg-white p-6 rounded-lg shadow-lg text-center transition-all hover:shadow-2xl hover:shadow-blue-500/50"
     >
       {/* Image for Excellence */}
       <img 
@@ -160,7 +160,7 @@ export default function AboutUs() {
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, delay: 1.4 }}
-      className="group bg-white p-6 rounded-lg shadow-lg text-center w-1/4 transition-all hover:shadow-2xl hover:shadow-blue-500/50"
+      className="group bg-white p-6 rounded-lg shadow-lg text-center transition-all hover:shadow-2xl hover:shadow-blue-500/50"
     >
       {/* Image for Impact */}
       <img 
@@ -180,7 +180,7 @@ export default function AboutUs() {
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, delay: 1.6 }}
-      className="group bg-white p-6 rounded-lg shadow-lg text-center w-1/4 transition-all hover:shadow-2xl hover:shadow-blue-500/50"
+      className="group bg-white p-6 rounded-lg shadow-lg text-center transition-all hover:shadow-2xl hover:shadow-blue-500/50"
     >
       {/* Image for Reputation */}
       <img 
@@ -197,6 +197,7 @@ export default function AboutUs() {
     </motion.div>
   </div>
 </div>
+
 
         {/* Our Responsibilities */}
 <div className="mt-20">
