@@ -37,7 +37,7 @@ const NameContact = () => {
             cursor: "pointer",
             transition: "background-color 0.3s ease",
           }}
-          onClick={() => window.location.href = "mailto:example@example.com"}
+          onClick={() => window.location.href = "mailto:info@aifbf.org"}
           role="button"
           aria-label="Email Us"
         >
